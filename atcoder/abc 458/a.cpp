@@ -22,7 +22,7 @@ typedef priority_queue<int, vector<int>, greater<int>> mnpq;
 const int N = 1e5;
 
 void solve(){
-    cout << "Hello World" << endl;
+    cout << "Lets Try it out" << endl;
 }
 
 signed main(){
