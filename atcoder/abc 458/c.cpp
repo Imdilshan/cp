@@ -24,12 +24,22 @@ const int N = 1e5;
 void solve(){
   string s;
   cin >> s;
-  int n;
-  cin >> n;
 
-  for(int i = n; i < s.size()-n; i++){
-    cout << s[i];
+  vector<int> v;
+  int cnt = 0;
+  int len = s.size();
+
+  for(int i = 0; i < s.size(); i++){
+    if(s[i] == 'C'){
+      v.push_back(i);
+    }
   }
+  cnt += v.size();
+  for(int i = 0; i < v.size(); i++){
+    int val = min(v[i], len-v[i]-1);
+    cnt += val;
+  }
+  cout << cnt;
 }
 
 signed main(){
