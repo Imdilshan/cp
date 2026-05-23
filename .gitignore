@@ -2,3 +2,4 @@ output
 *.out
 *.exe
 .DS_Store
+.zed/
