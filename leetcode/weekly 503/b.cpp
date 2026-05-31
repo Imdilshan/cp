@@ -3,9 +3,8 @@
  * Use if else ladder for various cases
  */
 
-
-
-
+#include <bits/stdc++.h>
+using namespace std;
 
 class Solution {
 public:

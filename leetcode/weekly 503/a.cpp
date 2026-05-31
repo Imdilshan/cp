@@ -3,6 +3,9 @@
  * Create a frequency array, for each element maxFreq = min(freq, k)
  */
 
+#include <bits/stdc++.h>
+using namespace std;
+
 class Solution {
 public:
     vector<int> limitOccurrences(vector<int>& nums, int k) {
